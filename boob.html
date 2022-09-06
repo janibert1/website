@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lightgray;
+    color: black
+}
+    
+
+li a:hover:not(.active) {
+  background-color: lightgray;
+    color: black
+}
+.active {
+  background-color: skyblue;
+}
+li {
+  border-right: 2px solid #bbb;
+}
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+    .p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.p1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+    
+</style>
+<title>Website van Jan Albert Driessen</title>
+</head>
+<body>
+
+<ul>
+  <li><a class="p2 active"  href="#home">Wie ben ik</a></li>
+  <li><a class="p2" href="#news">Wat kan ik</a></li>
+  <li><a class="p2" href="#contact">Wat wil ik</a></li>
+</ul>
+
+<h1 class="p2">Wie Ben Ik</h1>
+<p class="p1"> ik ben</p>
+
+</body>
+</html>
